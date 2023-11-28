@@ -1,24 +1,3 @@
-// Layout of Contract:
-// version
-// imports
-// errors
-// interfaces, libraries, contracts
-// Type declarations
-// State variables
-// Events
-// Modifiers
-// Functions
-
-// Layout of Functions:
-// constructor
-// receive function (if exists)
-// fallback function (if exists)
-// external
-// public
-// internal
-// private
-// internal & private view & pure functions
-// external & public view & pure functions
 
 // SPDX-License-Identifier: MIT
 
@@ -31,7 +10,7 @@ import {DecentralizedStableCoin} from "./DecentralizedStableCoin.sol";
 
 /*
  * @title DSCEngine
- * @author Patrick Collins
+ * @author Akshat Pathak
  *
  * The system is designed to be as minimal as possible, and have the tokens maintain a 1 token == $1 peg at all times.
  * This is a stablecoin with the properties:
